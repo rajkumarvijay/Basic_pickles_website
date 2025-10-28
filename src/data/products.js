@@ -1,0 +1,38 @@
+export const PRODUCTS = [
+  {
+    id: 'mango',
+    title: 'Classic Mango Pickle',
+    price: 199,
+    rating: 4.7,
+    image: '/images/mango.svg',
+    description: 'A traditional mango pickle with bold spices and authentic South Indian flavor.',
+    tags: ['mango','spicy','authentic'],
+  },
+  {
+    id: 'lemon',
+    title: 'Lemon Sesame Pickle',
+    price: 149,
+    rating: 4.5,
+    image: '/images/lemon.svg',
+    description: 'Tangy lemon pickle balanced with sesame and a touch of chili.',
+    tags: ['lemon','tangy'],
+  },
+  {
+    id: 'garlic',
+    title: 'Garlic & Red Chili Pickle',
+    price: 229,
+    rating: 4.8,
+    image: '/images/garlic.svg',
+    description: 'Bold garlic flavor lifted by sun-dried red chilies and mustard seeds.',
+    tags: ['garlic','hot'],
+  },
+  {
+    id: 'mixed',
+    title: 'Mixed Vegetable Pickle',
+    price: 179,
+    rating: 4.3,
+    image: '/images/mixed.svg',
+    description: 'A colorful mix of vegetables preserved with aromatic spices.',
+    tags: ['mixed','mild'],
+  },
+];
